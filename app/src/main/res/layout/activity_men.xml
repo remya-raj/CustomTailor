@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/customMenImage"
+                android:layout_width="match_parent"
+                android:layout_height="290dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/men_custom_image" />
+
+            <Button
+                android:id="@+id/menCustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_dark"
+                android:text="@string/custom"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/alterationMenImage"
+                android:layout_width="match_parent"
+                android:layout_height="272dp"
+                android:contentDescription="@string/todo"
+                app:srcCompat="@drawable/men_alteration" />
+
+            <Button
+                android:id="@+id/menAlterationButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_dark"
+                android:text="@string/alteration"
+                android:textColor="@android:color/background_light"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

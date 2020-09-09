@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.remya.customtailor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tailor_app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/tailor_app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DebitCardActivity"></activity>
+        <activity android:name=".CashOnDeliveryActivity" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".ThankYouActivity" />
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".PaymentOptionActivity" />
+        <activity android:name=".GiveMySizeEntryActivity" />
+        <activity android:name=".GiveSpecificMeasurementActivity" />
+        <activity android:name=".GetMyTailorActivity" />
+        <activity android:name=".MeasureMeActivity" />
+        <activity android:name=".GiveMySizeActivity" />
+        <activity android:name=".MeasurementActivity" />
+        <activity android:name=".WomenAlterationActivity" />
+        <activity android:name=".GirlsUniformActivity" />
+        <activity android:name=".BoysUniformActivity" />
+        <activity android:name=".MenAlterationActivity" />
+        <activity android:name=".WomenUniformActivity" />
+        <activity android:name=".MenUniformActivity" />
+        <activity android:name=".WomenFormalActivity" />
+        <activity android:name=".MenFormalActivity" />
+        <activity android:name=".WomenEthnicActivity" />
+        <activity android:name=".MenEthnicActivity" />
+        <activity android:name=".IntroductionActivity" />
+        <activity android:name=".WomenActivity" />
+        <activity android:name=".MenActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
